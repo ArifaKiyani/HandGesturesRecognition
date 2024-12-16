@@ -9,8 +9,8 @@ model_path = '/workspaces/HandGesturesRecognition/HandGestRecognition_cnn.h5'  #
 model = tf.keras.models.load_model(model_path)
 
 # Define class names in the correct order
-class_names = ['call_me', 'finger_crossed', 'okay', 'paper','peace' 
-               'rock', 'rock_on', 'scissor', 'spock', 'thumbs','up']
+class_names = ['call_me', 'finger_crossed', 'okay', 'paper','peace', 
+               'rock', 'rock_on', 'scissor', 'thumbs','up']
 
 # Set Streamlit app title
 st.title("Hand Gesture Recognition")
